@@ -1,0 +1,22 @@
+What is this:
+	* A Client code, communicating with Server. Client is using different Threads for:
+		** send data
+		** receive data
+		** receive keyboard input
+		** Main Thread 
+		
+what was the TASK: 
+	* receive a document from local server"
+	* A server:
+		** when connected to client, sends text: "HelloIAG0010Client"
+		** when receives answer: "HelloIAG0010Server", it starts sending document: "TTU_pohikiri_2008.doc"
+		** on each packet, it should receive "Ready" to continue
+		
+Details: 
+	* visual studio 2013, win32 console application
+	* to compile, add those two libraries "ws2_32.lib; mswsock.lib;" in
+		** project properties > Configuration Properties > Linker > Input > Additional Dependencies
+		
+Written by:
+	* Mari M.
+	* Tsotne P.
