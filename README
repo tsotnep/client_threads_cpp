@@ -5,7 +5,7 @@ What is this:
 		** receive keyboard input
 		** Main Thread 
 		
-what was the TASK: 
+What was the TASK: 
 	* receive a document from local server"
 	* A server:
 		** when connected to client, sends text: "HelloIAG0010Client"
